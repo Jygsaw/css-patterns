@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<style>
+			header {
+				background-color: #ace;
+				height: 50px;
+			}
+			.main {
+				background-color: #cdc;
+				min-height: 100%;
+				margin-bottom: -50px;
+			}
+			footer, .content-wrap:after {
+				height: 50px;
+			}
+			.content {
+				background-color: #666;
+				width: 300px;
+				height: 200px;
+			}
+			.content-wrap:after {
+				content: '';
+				display: block;
+			}
+			footer {
+				background-color: #fae;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<header>
+				header
+			</header>
+			<div class="content-wrap">
+				<div class="content"></div>
+			</div>
+		</div>
+		<footer>
+			footer
+		</footer>
+	</body>
+</html>
